@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#corpo{
+    width: 99%;
+    height: 850px;
+    background-color: black;
+    margin: auto;
+}
+
+#cabecalho{
+    display: flex;
+    height: 80px;
+    width: 99%;
+    margin: auto;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+#primeiro{
+    
+    display: inline-block;
+    height: 75%;
+    width: 150px;
+    border: 2px solid black;
+    margin: 8px 0px 8px 8%;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+#cabecalhoDois{
+    display: flex;
+    justify-content: space-around;
+    border: brown solid 1px;
+    width: 30%;
+}
+
+#segundo{
+   
+    height: 75%;
+    width: 150px;
+    border: 2px solid red;
+    margin: 8px 8%;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#terceiro{
+   
+    height: 75%;
+    width: 150px;
+    border: 2px solid blue;
+    margin: 8px 8%;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#button{
+    margin: auto;
+}
